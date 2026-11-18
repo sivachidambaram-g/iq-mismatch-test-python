@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iqmismatchtest"
+version = "0.1.0"
+description = "DSW QA test package that forces all three System IQ failures (MISSING, MISMATCH, UNEXPECTED)"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "DSW QA", email = "noreply@sycamoreinformatics.com" }]
+
+[tool.setuptools]
+packages = ["iqmismatchtest"]
